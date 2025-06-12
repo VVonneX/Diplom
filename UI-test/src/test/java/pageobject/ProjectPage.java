@@ -57,5 +57,4 @@ public class ProjectPage {
         refactorNote.shouldBe(visible);
         return refactorNote.getText();
     }
-//*[@id="mat-dialog-0"]/app-create-edit/div/mat-dialog-actions/button[2]/span[1]
 }

@@ -36,7 +36,7 @@ public class Initializer {
         feedRepository.save(new Feed("Заметка 1", "Описание заметки 1"));
         feedRepository.save(new Feed("Заметка 1", "Описание заметки 1"));
         feedRepository.save(new Feed("Заметка 1", "Описание заметки 1"));
-        feedRepository.save(new Feed("Заметка 1", "Описание заметки 1"));
+        feedRepository.save(new Feed("Заметка 1", "Описание заметки 123123"));
     }
     // инициализирует записи в базе данных
 }
