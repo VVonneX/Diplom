@@ -6,6 +6,10 @@
 
   Описание
   <editor [(ngModel)]="data.description"></editor>
+  <editor
+    [(ngModel)]="data.description"
+    [init]="editorConfig"
+  ></editor>
 
   <mat-dialog-actions align="end">
     <button mat-raised-button mat-dialog-close>Закрыть</button>
